@@ -12,12 +12,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Details/5
+        // Changes for Sprint 2 --  I want to filter message content so that it is appropriate.-- Takunda Madziwa
         public ActionResult Details(int id)
         {
             return View();
         }
 
         // GET: MessageController/Create
+        // Changes for Sprint 2 --  I want to filter message content so that it is appropriate.-- Takunda Madziwa
         public ActionResult Create()
         {
             return View();
