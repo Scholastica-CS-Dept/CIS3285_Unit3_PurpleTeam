@@ -12,6 +12,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Details/5
+        // Changes for Sprint 1 --  I want to view a list of rooms that represent conversations -- Takunda Madziwa
         // Changes for Sprint 2 --  I want to filter message content so that it is appropriate.-- Takunda Madziwa
         public ActionResult Details(int id)
         {
@@ -19,6 +20,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Create
+        // Changes for Sprint 1 --  I want to view a list of rooms that represent conversations -- Takunda Madziwa
         // Changes for Sprint 2 --  I want to filter message content so that it is appropriate.-- Takunda Madziwa
         public ActionResult Create()
         {
@@ -26,6 +28,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // POST: MessageController/Create
+        // Changes for Sprint 1 --  I want to view a list of rooms that represent conversations -- Takunda Madziwa
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -41,6 +44,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         }
 
         // GET: MessageController/Edit/5
+        // Changes for Sprint 1 --  I want to view a list of rooms that represent conversations -- Takunda Madziwa
         public ActionResult Edit(int id)
         {
             return View();

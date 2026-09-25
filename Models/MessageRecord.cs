@@ -2,6 +2,7 @@
 {
     public class MessageRecord
     {
+        // Changes for Sprint 1 --  I want to view a list of rooms that represent conversations -- Takunda Madziwa
         // Changes for Sprint 2 -- I want to send markdown text correctly formatted -- Arya DeWitt
         public MessageRecord(int roomID, string authorName, string text)
         {
@@ -23,6 +24,7 @@
             private set;
         }
 
+// Changes for Sprint 1 --  I want to view a list of rooms that represent conversations -- Takunda Madziwa
         public string AuthorName
         {
             get;
